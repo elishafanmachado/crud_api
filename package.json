@@ -21,5 +21,9 @@
   "devDependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.28"
   }
 }

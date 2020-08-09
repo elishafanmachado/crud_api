@@ -1,4 +1,17 @@
 const express = require('express');
+const mongoose = require('mongoose');
+
+require('./models/Dados')
+const Dados = mongoose.model('dados');
+
+mongoose.connect('mongodb://localhost/api', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(() => {
+    console.log("Conexão com MongoDB realizada com sucesso!");
+}).catch((erro) => {
+    console.log("Erro: Conexão com MongoDB não foi realizada com sucesso!");
+})
 
 const app = express();
 
