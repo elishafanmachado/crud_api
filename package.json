@@ -1,0 +1,25 @@
+{
+  "name": "crud_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elishafanmachado/crud_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elishafanmachado/crud_api/issues"
+  },
+  "homepage": "https://github.com/elishafanmachado/crud_api#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
