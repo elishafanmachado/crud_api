@@ -1,4 +1,4 @@
-Iniciar packaje.json
+Iniciar package.json
 
 npm init -y
 
@@ -10,7 +10,7 @@ instalar nodemon
 
 npm install -D nodemon
 
-instalar mongodb
+Instalar mongodb
 
 npm install --save mongodb
 

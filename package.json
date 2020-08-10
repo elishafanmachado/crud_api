@@ -1,7 +1,7 @@
 {
   "name": "crud_api",
   "version": "1.0.0",
-  "description": "Iniciar packaje.json",
+  "description": "Iniciar package.json",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
