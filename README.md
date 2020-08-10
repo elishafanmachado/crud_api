@@ -1,19 +1,19 @@
-inicializar o packjson
+Iniciar packaje.json
 
 npm init -y
 
-instalar o express
+instalar express
 
 npm install -D express
 
-instalar o nodemon
+instalar nodemon
 
 npm install -D nodemon
 
-instalar o mongoDB
+instalar mongodb
 
 npm install --save mongodb
 
-instalar o mongoose
+instalar mongoose
 
 npm install --save mongoose
