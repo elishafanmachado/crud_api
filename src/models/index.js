@@ -1,11 +1,10 @@
-const mongoose = require('mongoose');
+const mongoose =  require('mongoose');
 
-const Dados =  new mongoose.Schema({
+const Dados = new mongoose.Schema({
     titulo: {
         type: String,
         required: true
     },
-
     conteudo: {
         type: String,
         required: true
@@ -15,4 +14,4 @@ const Dados =  new mongoose.Schema({
     timestamps: true
 });
 
-mongoose.model('dados', Dados);
+mongoose.model('dados', Dados)

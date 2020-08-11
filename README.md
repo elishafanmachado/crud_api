@@ -10,10 +10,11 @@ instalar nodemon
 
 npm install -D nodemon
 
-Instalar mongodb
+instalar mongodb
 
 npm install --save mongodb
 
 instalar mongoose
 
 npm install --save mongoose
+
